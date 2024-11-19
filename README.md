@@ -26,12 +26,12 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 1. **Cloner le dépôt** :
     ```
-   git clone https://github.com/votre-utilisateur/BTC-PriceBot.git
+   git clone https://github.com/Zertrust/BTC-PriceBot.git
    cd BTC-PriceBot
     ```
 
 2. **Créer un fichier `.env`** :
-   - Créez un fichier `.env` dans le répertoire racine et ajoutez vos clés API et informations Discord :+
+   - Créez un fichier `.env` dans le répertoire racine et ajoutez vos clés API et informations Discord :
     ```
     DISCORD_TOKEN=your_discord_bot_token
     COINMARKETCAP_API_KEY=your_coinmarketcap_api_key
