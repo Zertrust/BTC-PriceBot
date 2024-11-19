@@ -3,7 +3,7 @@ mod bitcoin;
 mod config;
 
 use serenity::Client;
-use serenity::model::gateway::GatewayIntents; // Mise à jour ici
+use serenity::model::gateway::GatewayIntents;
 use bot::{Handler, start_notification_loop};
 use config::{get_discord_token, get_coinmarketcap_api_key};
 
